@@ -1,3 +1,12 @@
+body{
+    background-color: #EF2EF2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
 h1 {
     text-align: center;
   }
@@ -6,9 +15,13 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin: 20px;
   }
   
+  .subtitle{
+    font-size:large;
+  }
+
   label, input {
     margin-bottom: 10px;
   }
@@ -16,20 +29,22 @@ h1 {
   input {
     padding: 5px;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #02000D;
+    border-radius: 3px;
   }
   
   button {
-    margin-top: 10px;
+    margin: 20px;
     padding: 5px 10px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #030526;
+    color: rgb(246, 241, 246);
     border: none;
     border-radius: 5px;
     cursor: pointer;
   }
   
   button:hover {
-    background-color: #3e8e41;
+    background-color: #380E73;
+    scale: 1.1;
   }
   
